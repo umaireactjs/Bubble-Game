@@ -7,7 +7,7 @@ function randomBubble() {
   document.querySelector("#pbtm").innerHTML = clutter;
 }
 
-var timer = 10;
+var timer = 60;
 function setTimer() {
   var timerint = setInterval(() => {
     if (timer > 0) {
